@@ -3,7 +3,7 @@ import * as aws from "@pulumi/aws";
 import * as awsx from "@pulumi/awsx";
 
 
-const vpc = new awsx.ec2.Vpc("custom", {
+const vpc = new awsx.ec2.Vpc("custom-1", {
     cidrBlock: "172.16.0.0/16",
     subnets: [
         { type: "public" },
