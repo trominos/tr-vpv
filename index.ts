@@ -14,5 +14,5 @@ const vpc = new awsx.ec2.Vpc("custom-1", {
 });
 
 // Allocate a security group and then a series of rules:
-const sg = new awsx.ec2.SecurityGroup("sg", { vpc });
+const sg = new awsx.ec2.SecurityGroup("thisistestsg", { vpc });
 
